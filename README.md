@@ -1,12 +1,13 @@
 # 🧬 EGFR-KD Astrocyte RNA-Seq Analysis (Replication of Fig. 1J–K)
 
-This repository contains a reproducible pipeline and supporting files for replicating **Figure 1J and 1K** from the paper:
+This repository contains a reproducible pipeline and supporting files for replicating **Figure 1j and 1k** from the paper:
 
 > *"Psychedelic control of neuroimmune interactions governing fear"*  
 > *(Analysis of amygdala astrocyte responses during chronic stress by EGFR, [NCBI GEO DataSets: GSE262981])*
 
 We focus on replicating the **differential gene expression** and **gene set enrichment** analyses of **astrocytes with EGFR knockdown (EGFR-KD)**, which demonstrated that **EGFR signaling in the amygdala limits stress-induced fear behavior**.
 
+![Fig. 1j and 1k from paper](fig1j_fig1k.png)
 ---
 
 ## 📄 Summary
