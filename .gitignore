@@ -1,0 +1,41 @@
+# --- macOS / editor / RStudio junk ---
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# --- Local Nextflow cache (not used w/ Fusion, but safe to ignore) ---
+work/
+.nextflow*
+pipeline_info/
+*.html
+*.report
+*.timeline
+*.trace
+*.dot
+
+# --- Logs ---
+*.log
+*.out
+*.err
+
+# --- Local results (not generated locally) ---
+results/
+!results/README.md
+
+# --- Temporary/intermediate files ---
+*.counts.txt
+*.bam
+*.sam
+*.fastq
+*.fq
+*.gz
+
+# --- STAR / genome indices (if ever generated locally) ---
+genome_index/
+
+# --- VSCode / JetBrains / etc. (optional) ---
+.vscode/
+.idea/
+
