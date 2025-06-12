@@ -7,7 +7,13 @@ This repository contains a reproducible pipeline and supporting files for replic
 
 We focus on replicating the **differential gene expression** and **gene set enrichment** analyses of **astrocytes with EGFR knockdown (EGFR-KD)**, which demonstrated that **EGFR signaling in the amygdala limits stress-induced fear behavior**.
 
+### Fig. 1j and 1k from paper:
 ![Fig. 1j and 1k from paper](fig1j_fig1k.png)
+
+### Replicated Fig. 1j and 1k:
+![Replicated fig. 1j](results/dge/volcano_plot.png) 
+![Replicated fig. 1k-a](results/gsea/hallmark_inflammatory_response.png) 
+![Replicated fig. 1k-b](results/gsea/reactome_tyrosine_phosphatases.png) 
 ---
 
 ## 📄 Summary
