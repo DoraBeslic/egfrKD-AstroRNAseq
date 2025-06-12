@@ -115,7 +115,11 @@ volcano_plot <- ggplot(de_genes, aes(x = logFC, y = logFDR)) +
   ylim(0, 7)
 
 # --- Save plot and results ---
-ggsave(file.path(dge_dir, "volcano_plot.pdf"), volcano_plot, width = 10, height = 8)
+ggsave(file.path(dge_dir, "volcano_plot.png"), 
+       plot = volcano_plot, 
+       width = 8, 
+       height = 6,
+       bg = 'white')
 print(volcano_plot)
 
 write.csv(de_genes, file.path(dge_dir, "dge_results.csv"))
