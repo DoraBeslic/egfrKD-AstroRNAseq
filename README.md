@@ -2,7 +2,7 @@
 
 This repository contains a reproducible pipeline and supporting files for replicating **Figure 1j and 1k** from the paper:
 
-> *"Psychedelic control of neuroimmune interactions governing fear"*  
+> *"Psychedelic control of neuroimmune interactions governing fear"* [1]  
 > *(Analysis of amygdala astrocyte responses during chronic stress by EGFR, [NCBI GEO DataSets: GSE262981])*
 
 We focus on replicating the **differential gene expression** and **gene set enrichment** analyses of **astrocytes with EGFR knockdown (EGFR-KD)**, which demonstrated that **EGFR signaling in the amygdala limits stress-induced fear behavior**.
@@ -70,13 +70,13 @@ This project was implemented using **Nextflow** with execution on **AWS Batch** 
    nextflow run main.nf -profile awsbatch
    
 ## Citations
-Chung, E.N., Lee, J., Polonio, C.M. et al. Psychedelic control of neuroimmune interactions governing fear. Nature 641, 1276–1286 (2025). https://doi-org.ezproxy.neu.edu/10.1038/s41586-025-08880-9
+1. Chung, E.N., Lee, J., Polonio, C.M. et al. Psychedelic control of neuroimmune interactions governing fear. Nature 641, 1276–1286 (2025). https://doi-org.ezproxy.neu.edu/10.1038/s41586-025-08880-9
 
-Guangchuang Yu, Li-Gen Wang, Yanyan Han and Qing-Yu He. clusterProfiler: an R package for
+2. Guangchuang Yu, Li-Gen Wang, Yanyan Han and Qing-Yu He. clusterProfiler: an R package for
 comparing biological themes among gene clusters. OMICS: A Journal of Integrative Biology.
 2012, 16(5):284-287
 
-T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo,
+3. T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo,
 and G Yu. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. The
 Innovation. 2021, 2(3):100141
 
